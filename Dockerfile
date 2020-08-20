@@ -29,7 +29,7 @@ COPY extras.sh /home/
 COPY /stuff /stuff
 
 # Run extras.sh and clean up APT:
-RUN sh /home/extras.sh \
+#RUN sh /home/extras.sh \
  && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Install the bot:
