@@ -33,9 +33,9 @@ RUN sh /home/extras.sh \
 && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Install the bot:
-RUN git clone https://github.com/cddc22/her.git \
- && cd her \
- && npm install \
+#RUN git clone https://github.com/cddc22/her.git \
+# && cd her \
+# && npm install \
  
  
 # Run bot script:
