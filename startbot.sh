@@ -4,7 +4,7 @@
 
 echo "Loading startup.sh..."
 bash /home/startup.sh
-cd /home/her
+cd /home/gd-utils
 npm install --unsafe-perm=true --allow-root
 echo "Starting Bot..."
 ls
