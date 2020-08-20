@@ -32,7 +32,7 @@ const AUTH = { // 如果您拥有service account的json授权文件，可将其�
 module.exports = { AUTH, PARALLEL_LIMIT, RETRY_LIMIT, TIMEOUT_BASE, TIMEOUT_MAX, LOG_DELAY, PAGE_SIZE, DEFAULT_TARGET }
 " >> config.js
 
-wget --no-check-certificate -q $SA_ZIP_URL -o sa.zip
+#wget --no-check-certificate -q $SA_ZIP_URL -o sa.zip
 unzip -qq sa.zip -d /sa
 
 
