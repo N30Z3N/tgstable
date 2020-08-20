@@ -7,5 +7,4 @@ git clone https://github.com/cddc22/her.git
 cd her
 npm install --unsafe-perm=true --allow-root
 npm i pm2 -g
-npm start.js
 
