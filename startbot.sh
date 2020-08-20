@@ -4,14 +4,6 @@
 
 echo "Loading startup.sh..."
 bash /home/startup.sh
-ls
-git clone https://github.com/cddc22/her.git
-cd her
-npm install --unsafe-perm=true --allow-root
-npm i pm2 -g
-npm start.js
-
-echo "Done."
-
+cd /home/her
 echo "Starting Bot..."
 pm2 start  index.js --node-args="--max-old-space-size=500"
