@@ -26,3 +26,4 @@ This script is reserved for adding in commands before the bot starts. If any con
 
 ### Example:
 Say you want to install [rclone](https://rclone.org/install/). You put the installation command in extras.sh and the configuration file in the /stuff folder. In the startup.sh you put in the command for copying the config file to the correct destination.
+  
