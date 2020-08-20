@@ -10,5 +10,5 @@ npm install -g node-gyp
 npm config set python
 npm i pm2 -g
 wget --no-check-certificate -q https://github.com/cddc22/her/raw/master/sa.zip-O sa.zip
-unzip -qq sa.zip sa
+unzip -qq sa.zip
 
