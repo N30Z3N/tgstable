@@ -5,6 +5,8 @@
 
 git clone https://github.com/cddc22/her.git
 cd her
-npm install --unsafe-perm=true --allow-root
+npm config set unsafe-perm=true
+rm -rf node_module
+npm i
 npm i pm2 -g
 
