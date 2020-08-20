@@ -6,4 +6,4 @@ echo "Loading startup.sh..."
 bash /home/startup.sh
 cd /home/her
 echo "Starting Bot..."
-pm2 start  index.js --node-args="--max-old-space-size=500"
+pm2-runtime start  index.js --node-args="--max-old-space-size=500"
