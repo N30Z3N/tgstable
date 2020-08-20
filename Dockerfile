@@ -29,17 +29,13 @@ COPY extras.sh /home/
 COPY /stuff /stuff
 
 # Run extras.sh and clean up APT:
-#RUN sh /home/extras.sh \
-##&& apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+RUN sh /home/extras.sh \
+&& apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Install the bot:
 RUN git clone https://github.com/cddc22/her.git \
  && cd her \
  && npm install \
- && npm config set unsafe-perm=true \
- && npm install -g node-gyp \
- && npm i \
- && npm i pm2 -g && pm2 l
  
  
 # Run bot script:
