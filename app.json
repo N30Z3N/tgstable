@@ -1,7 +1,6 @@
 {
    "name": "tg-shellbot-heroku",
     "description": "Heroku edition of github.com/botgram/shell-bot",
-    "keywords": ["shell", "telegram", "docker", "bot"],
     "repository": "https://github.com/ssnjrthegr8/tg-shellbot-heroku.git",
     "stack": "container",
     "env": {
