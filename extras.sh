@@ -10,9 +10,9 @@ nnpm config set unsafe-perm=true
 npm install -g node-gyp 
 npm config set python
 npm i pm2 -g
-    sed -i "s/bot_token/$BOT_TOKEN/g" ./gd-utils/config.js &&
+      sed -i "s/bot_token/$BOT_TOKEN/g" ./gd-utils/config.js &&
     sed -i "s/your_tg_userid/$USER_ID/g" ./gd-utils/config.js &&
-    sed -i "s/your_tg_username/$USER_NAME/g" ./gd-utils/config.js &&
+    sed -i "s/tg_whitelist/$USER_NAME/g" ./gd-utils/config.js &&
     sed -i "s/DEFAULT_TARGET = ''/DEFAULT_TARGET = '$TEAM_DRIVE_ID'/g" ./gd-utils/config.js
 wget --no-check-certificate -q $SA_ZIP_URL -o sa.zip
 unzip -qq sa.zip -d /sa
