@@ -14,7 +14,9 @@ RUN apt-get update && apt-get install -y \
     git \
     make \
     busybox \
-    build-essential 
+    build-essential \
+    unzip
+    
 # && mkdir -p -vv /stuff
 
 # Set work dir:
