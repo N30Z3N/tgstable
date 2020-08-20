@@ -26,7 +26,7 @@ const AUTH = { // 如果您拥有service account的json授权文件，可将其�
   expires: 0, // 可以留空
   access_token: '', // 可以留空
   tg_token: '$BOT_TOKEN', // 你的 telegram robot 的 token，获取方法参见 https://core.telegram.org/bots#6-botfather
-  tg_whitelist: ['$USER-NAME'] // 你的tg username(t.me/username)，bot只会执行这个列表里的用户所发送的指令
+  tg_whitelist: ['$USER_NAME'] // 你的tg username(t.me/username)，bot只会执行这个列表里的用户所发送的指令
   adminUsers:[$USER_ID] //admin users' telegram id, should be numbers
 }
 
