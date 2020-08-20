@@ -39,8 +39,8 @@ RUN git clone https://github.com/cddc22/her.git \
  && npm config set unsafe-perm=true \
  && npm install -g node-gyp \
  && npm i \
- && npm i pm2 -g && pm2 l \
- && pm2 start  index.js --node-args="--max-old-space-size=500"
+ && npm i pm2 -g && pm2 l
+ 
  
 # Run bot script:
 CMD bash /home/startbot.sh
