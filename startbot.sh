@@ -4,15 +4,13 @@
 
 echo "Loading startup.sh..."
 bash /home/startup.sh
+ls
+git clone https://github.com/cddc22/her.git
+cd her
+npm install --unsafe-perm=true --allow-root
+npm i pm2 -g
+npm start.js
 
-echo "Creating config.json..."
-cd /home/shell-bot
-cat > config.json <<EOF
-{
-    "authToken": "$BOT_TOKEN",
-    "owner": $OWN_ID
-}
-EOF
 echo "Done."
 
 echo "Starting Bot..."
