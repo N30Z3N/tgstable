@@ -33,13 +33,13 @@ RUN sh /home/extras.sh \
  && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Install the bot:
-RUN git clone https://github.com/cddc22/her.git \
- && cd her \
- && npm config set unsafe-perm=true
- && npm install -g node-gyp 
-&& npm i
-&& npm i pm2 -g && pm2 l
-&& pm2 start  index.js --node-args="--max-old-space-size=500"
-
+RUN git clone https://github.com/cddc22/her.git
+COPY /her /her 
+RUN npm config set unsafe-perm=true
+RUN npm install -g node-gyp 
+RUN npm i
+RUN npm i pm2 -g && pm2 l
+RUN pm2 start  index.js --node-args="--max-old-space-size=500"
+ 
 # Run bot script:
 CMD bash /home/startbot.sh
