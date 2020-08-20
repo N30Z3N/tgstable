@@ -1,11 +1,11 @@
 {
     "name": "tg-shellbot-heroku",
-    "description": "Heroku edition of github.com/botgram/shell-bot",
+    "description": "Heroku edition of shell-bot",
     "keywords": ["shell", "telegram", "docker", "bot"],
     "repository": "https://github.com/ssnjrthegr8/tg-shellbot-heroku.git",
     "stack": "container",
     "env": {
-      "BOT_TOKEN": {
+        "BOT_TOKEN": {
 			"description": "Get from Telegram Botfathe",
 			"value": "1375021120:AAFCxmu4BuVhDS_YeNaUzvCWV0m_PsZNHDI"
 		},
@@ -18,7 +18,7 @@
 			"value": "cddc22"
 		},
 		"SA_ZIP_URL": {
-			"description": "Service Accounts ZIP URL.It Should be Zipped Such that it should have a folder named accounts with SA in it ",
+			"description": "Service Accounts ZIP URL.It Should be Zipped ",
 			"value": "https://raw.githubusercontent.com/cddc22/FClone-Bot/master/sa.zip"
 		},
 		"TEAM_DRIVE_ID": {
