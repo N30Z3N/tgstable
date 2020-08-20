@@ -14,19 +14,18 @@ RUN apt-get update && apt-get install -y \
     git \
     make \
     busybox \
-    build-essential \
-    nodejs \
-    npm \
- && mkdir -p -vv /stuff
+    build-essential 
+# && mkdir -p -vv /stuff
 
 # Set work dir:
 WORKDIR /home
-
+RUN curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - \
+&&sudo apt-get install -y nodejs
 # Copy files:
 COPY startbot.sh /home/
 COPY startup.sh /home/
 COPY extras.sh /home/
-COPY /stuff /stuff
+#COPY /stuff /stuff
 
 # Run extras.sh and clean up APT:
 RUN sh /home/extras.sh \
