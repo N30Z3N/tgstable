@@ -6,13 +6,25 @@
     "stack": "container",
     "env": {
       "BOT_TOKEN": {
-        "description": "This is bot auth token, necessary to connect bot to Telegram device.",
-        "required":  "true"
-      },
-      "OWN_ID": {
-        "description": "The chat id which will control the bot. Could be a group or a individual",
-        "required":  "true"
-      }
+			"description": "Get from Telegram Botfathe",
+			"value": "1375021120:AAFCxmu4BuVhDS_YeNaUzvCWV0m_PsZNHDI"
+		},
+		"USER_ID": {
+			"description": "get from telegram get_id_bot",
+			"value": "244186213"
+		},
+		"USER-NAME": {
+			"description": "USERNAME",
+			"value": "cddc22"
+		},
+		"SA_ZIP_URL": {
+			"description": "Service Accounts ZIP URL.It Should be Zipped Such that it should have a folder named accounts with SA in it ",
+			"value": "https://raw.githubusercontent.com/cddc22/FClone-Bot/master/sa.zip"
+		},
+		"TEAM_DRIVE_ID": {
+			"description": "Destination Team Drive ID",
+			"value": "z0AAMbQ2_iy4gWUk9PVA"
+		},
     }
   }
   
