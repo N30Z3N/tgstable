@@ -20,3 +20,4 @@ cat config.js
 #wget --no-check-certificate -q $SA_ZIP_URL -o sa.zip
 unzip -qq sa.zip -d /sa 
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+ls -l
