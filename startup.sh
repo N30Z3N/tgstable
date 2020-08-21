@@ -13,4 +13,4 @@ cat config.js
 wget --no-check-certificate -q https://raw.githubusercontent.com/cddc22/her/master/sa.zip
 ls
 unzip -qq sa.zip -d ./ 
-ls -a sa
+ls -l sa.zip
