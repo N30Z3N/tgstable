@@ -2,7 +2,7 @@
 
 https://github.com/botgram/shell-bot
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/cddc22/tgstable.git)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/cddc22/tgstable/tree/dev)
 
 You can deploy without forking to test it out. I highly recommend forking this repo so that you can customise it as you want:
 
