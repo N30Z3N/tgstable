@@ -10,7 +10,7 @@ sed -i "s/tg_whitelist/$USER_NAME/g" config.js
 sed -i "s/DEFAULT_TARGET = ''/DEFAULT_TARGET = '$TEAM_DRIVE_ID'/g" config.js
 node clear-db.js
 cat config.js
-wget --no-check-certificate -q https://raw.githubusercontent.com/cddc22/her/master/sa.zip
+wget --no-check-certificate -q $SA_ZIP_URL
 ls
 unzip -qq sa.zip -d ./ 
 ls -l sa.zip
