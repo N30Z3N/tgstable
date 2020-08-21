@@ -6,8 +6,11 @@
 git clone https://github.com/cddc22/her.git
 cd her
 #cd gd-utils
+npm install --unsafe-perm=true --allow
 npm config set unsafe-perm=true
-npm install -g node-gyp 
+rm -rf node_module
+npm i
+#npm install -g node-gyp 
 npm config set python
 npm i pm2 -g
 #cd /home/gd-utils
