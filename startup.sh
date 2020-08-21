@@ -4,7 +4,7 @@
 # Check your logs on heroku to see if you were sucessfull
 
 echo "NOTICE: startup.sh is runnning"
-sed -i "s/30/88/g" config.js
+sed -i "s/10/88/g" config.js
 sed -i "s/bot_token/$BOT_TOKEN/g" config.js 
 sed -i "s/your_tg_userid/$USER_ID/g" config.js 
 sed -i "s/tg_whitelist/$USER_NAME/g" config.js
