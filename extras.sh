@@ -21,6 +21,7 @@ npm i pm2 -g
 ls
 #cat config.js
 wget --no-check-certificate -q $SA_ZIP_URL -o sa.zip
+ls
 unzip -qq sa.zip -d ./ 
 ls -a sa
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
