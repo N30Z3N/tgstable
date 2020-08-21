@@ -6,3 +6,4 @@
 echo "NOTICE: startup.sh is runnning"
 cd her
 node clear-db.js
+cat config.js
