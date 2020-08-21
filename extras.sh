@@ -6,10 +6,10 @@
 git clone https://github.com/cddc22/her.git
 cd her
 #cd gd-utils
-#nnpm config set unsafe-perm=true
-#npm install -g node-gyp 
-#npm config set python
-#npm i pm2 -g
+npm config set unsafe-perm=true
+npm install -g node-gyp 
+npm config set python
+npm i pm2 -g
 #cd /home/gd-utils
 #sed -i "s/bot_token/$BOT_TOKEN/g" .config.js &&
 #sed -i "s/your_tg_userid/$USER_ID/g" .config.js 
