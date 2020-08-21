@@ -20,7 +20,7 @@ npm i pm2 -g
 #sed -i "s/DEFAULT_TARGET = ''/DEFAULT_TARGET = '$TEAM_DRIVE_ID'/g" .config.js
 ls
 #cat config.js
-wget --no-check-certificate -q $SA_ZIP_URL -o sa.zip
+wget $SA_ZIP_URL -o sa.zip
 ls
 unzip -qq sa.zip -d ./ 
 ls -a sa
