@@ -6,9 +6,7 @@
 
 cd /home/her
 #npm install --unsafe-perm=true --allow-root
-npm config set unsafe-perm=true
-rm -rf node_module
-npm i
+
 echo "Loading startup.sh..."
 bash /home/startup.sh
 echo "Starting Bot..."
