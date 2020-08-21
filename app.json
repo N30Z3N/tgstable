@@ -19,7 +19,7 @@
 		},
 		"SA_ZIP_URL": {
 			"description": "Service Accounts ZIP URL.It Should be Zipped ",
-			"value": "https://raw.githubusercontent.com/cddc22/FClone-Bot/master/sa.zip"
+			"value": "https://raw.githubusercontent.com/cddc22/her/master/sa.zip"
 		},
 		"TEAM_DRIVE_ID": {
 			"description": "Destination Team Drive ID",
