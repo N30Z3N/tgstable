@@ -18,5 +18,5 @@ sed -i "s/DEFAULT_TARGET = ''/DEFAULT_TARGET = '$TEAM_DRIVE_ID'/g" .config.js
 ls
 cat config.js
 #wget --no-check-certificate -q $SA_ZIP_URL -o sa.zip
-unzip -qq sa.zip -d /sa
+unzip -qq sa.zip -d /sa 
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
